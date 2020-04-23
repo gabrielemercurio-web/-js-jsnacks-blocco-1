@@ -8,7 +8,7 @@ var numero_utente = parseInt(prompt('Digita un numero qualsiasi'));
 // Inserire in un array tanti numeri quanto è la N digitata dall'utente
 var numeri_array = [];
 
-for (var i = numero_utente; i > 0; i--) {
+for (var i = 1; i <= numero_utente; i++) {
     // numeri_array.push(i + 1);
     var numero = i;
     var cubo = numero **3;
